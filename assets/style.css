@@ -9,6 +9,8 @@
 
 }
 
+.debug{ background-color: blueviolet;}
+
 
 h1{
   
@@ -18,36 +20,60 @@ h1{
 
 }
 
+.first-container{
+  width: 1200px;
+  margin: auto;
 
-.debug{
-
-  background-color: blueviolet;
 }
 
-header > ul > li {
+.flexing{display: flex;}
+
+.column{flex-direction: column;}
+
+
+.btn{
   
-  margin-right: 40px ;
+  background-color: #0061ff;
+  color: white;
   text-decoration: none;
- 
+
+}
+
+.btn.small{padding: 6.3px 11.5px;}
 
 
+.btn.medium{
+
+  padding: 11.2px 15.6px;
+  display: inline-block;
 
 }
 
 
-li:last-child{
-  margin: 0;
+
+
+/* id */
+
+#resize{width: 800px;} 
+
+
+#second-last{margin-right: -15px;}
+
+
+#bg-alternative{background-color:#b4d0e7 ;}
+
+
+#arrow-down{
+
+  font-size: 3rem;
+  margin-top: 35px;
+  
+  
 }
 
 
 
-
-header a {
-
-  text-decoration: none;
-  color: black;
- 
-}
+/* header */
 
 header{
 
@@ -61,96 +87,38 @@ header{
   width:100%;
   background-color: white;
   
- 
-
-
 }
 
+header a {
 
-#resize{
- 
-  width: 800px;
-
-
-} 
-
-
-#second-last{
-  margin-right: -15px;
-}
-
-
-#bg-alternative{
-  background-color:#b4d0e7 ;
-
-
-}
-
-
-#arrow-down{
-
-  font-size: 3rem;
-  margin-top: 35px;
-  margin-bottom: 20px;
-  
-
-
-
-}
-
-.flexing{
-  display: flex;
-
-}
-
-
-.column{
-
-  flex-direction: column;
-}
-
-.btn-header{
-  padding: 6.3px 11.5px;
-  background-color: #0061ff;
-  color: white;
   text-decoration: none;
+  color: black;
+ 
+}
+
+
+header > ul > li {
   
-
-}
-
-
-.btn-jumbo{
-  background-color: #0061ff;
-  color: white;
+  margin-right: 40px ;
   text-decoration: none;
-  padding: 11.2px 15.6px;
-  display: inline-block;
-
-
-
-
-
+ 
 }
+
+
+li:last-child{
+  margin: 0;
+}
+
 
 section.jumbo {
   padding-top: 180px;
-  height: calc(100vh -30px);
+  padding-bottom: 5px;
+
 
 }
 
 
-span > p{
-
-  margin-bottom: 35px;
-  
-}
-
-
-.first-container{
-  width: 1200px;
-  margin: auto;
-
-}
+span > p{margin-bottom: 35px;}
 
 
 span.jumbobox{
@@ -163,17 +131,7 @@ span.jumbobox{
 span.second-jumbobox{
   height: 400px;
   width: 600px;
-  position: relative;
-  display: inline-block;
-
-
-}
-
-
-
-
-section span > div {
-
   
-  margin-bottom: 35px;
 }
+
+section span > div {margin-bottom: 35px;}
