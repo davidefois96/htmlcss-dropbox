@@ -149,7 +149,7 @@ button:last-child{
   display: inline-block;
   line-height: 45px;
   text-align: center;
-  
+  background-color: white;
   
 
 
@@ -460,18 +460,19 @@ ul hr {
 
 .square img{width: 100%;}
 
-
-.small-squarebox  img{
-
-
-  -webkit-filter: invert(100%); 
-  filter: invert(100%);
-
-
-}
-
+.small-squarebox  img{filter: invert(100%);}
 
 .small-squarebox{width: 140px;}
 
 .big-squarebox{width: 260px;}
 
+/*turquoise-section*/
+
+
+.turquoise-section{
+
+  padding-top: 140px;
+  padding-bottom: 70px;
+
+
+}
