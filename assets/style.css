@@ -29,6 +29,8 @@ h2{
 }
 
 
+h2.st{font-size: 2.5rem;}
+
 h3{
 
   
@@ -363,6 +365,12 @@ ul hr {
 /*dropbox-business section*/
 
 
+.dropbox-business{
+  padding-bottom: 220px;
+
+
+}
+
 .dropbox-card{
 
   width: calc(900px / 3 );
@@ -372,4 +380,18 @@ ul hr {
 .dropbox-card img{
 
   width:100% ;
+}
+
+/*dropbox-team*/
+
+
+.dropbox-team{
+  padding-bottom: 150px;
+}
+
+
+
+.dropbox-team-a{
+  margin-top: 75px;
+  
 }
