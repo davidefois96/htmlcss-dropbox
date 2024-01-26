@@ -75,6 +75,8 @@ button:last-child{
 .column{flex-direction: column;}
 
 
+
+
 .btn{
   
   background-color: #0061ff;
@@ -104,6 +106,8 @@ button:last-child{
 
 }
 
+
+
 .circle{
 
 
@@ -121,7 +125,20 @@ button:last-child{
 /* id */
 
 
+#btn-white{
+  width: 160px;
+  height: 45px;
+  border: solid 2px black;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  line-height: 45px;
+  text-align: center;
+  
+  
 
+
+}
 
 #up{width: 300px;}
 
@@ -135,6 +152,8 @@ button:last-child{
 
 .spc-between{justify-content: space-between;}
 
+
+.al-items{align-items: center;}
 
 #resize{width: 800px;} 
 
@@ -263,7 +282,7 @@ div.try{
   
   
 
-  margin-bottom: 55px;
+  margin-bottom: 40px;
   
  
   
@@ -278,18 +297,11 @@ div.try{
 
 } 
 
-.bottom-try.nd{
- 
-  margin-top: 55px;
-  
 
 
+p.p1{margin-bottom: 30px;}
 
-}
-
-
-
-
+p.p2{margin-bottom: 60px;}
 
 
 
@@ -299,7 +311,7 @@ div.try{
 }
 
 
-ul > li {margin-bottom: 30px;}
+.bottom-try ul > li {margin-bottom: 30px;}
 
 li > i{margin-right: 10px;}
 
@@ -311,5 +323,25 @@ ul hr {
   color: #d0d0d3;
 }
 
-.bottom-try > p {margin-top: 60px;}
 
+
+
+/* dropbox-partner section */
+
+
+.partner-box{
+  
+  padding: 60px 50px 0 50px;
+  width: 40%;
+  
+
+}
+
+.dropbox-partner img{width: 100%;}
+
+.partner-img-box{
+  
+  width: 60%;
+  
+
+}
