@@ -1,96 +1,46 @@
 *{
-
   box-sizing: border-box;
   margin:0;
   padding: 0;
   list-style: none;
   font-family: 'Open Sans', sans-serif;
   text-decoration: ;
-
 }
 
 .debug{
-
   background-color: blueviolet;
   border: solid black 1px;
-
-  
 }
-
 
 h1{
-  
-  font-size: 4.5rem;
+  font-size: 4.8rem;
   font-weight: 800;
   margin-bottom: 70px;
-
 }
 
+h2{font-size: 2.4rem;}
 
-h2{
+.dropbox-business h2, .dropbox-team h2{margin-bottom: 78px;}
 
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin-bottom: 70px;
-}
-
-
-h2.st{font-size: 2.5rem;}
-
-h3{
-
-  
-  font-size: 1.6rem;
-
-
-
-}
-
-
-h3.st{margin-bottom: 30px;}
-
-h3.nd{margin-bottom: 25px;}
-
-
-h3.rd{margin-bottom:45px;}
-
-h4{
-  font-size: 1.05rem;
-  margin-bottom: 60px;
-}
-
-
-button:last-child{
-
-  margin-left: 50px;
-
-
-}
+h3{font-size: 1.6rem;}
 
 .first-container{
   width: 1200px;
   margin: auto;
-
 }
-
 
 .second-container{
   width: 1000px;
   margin: auto;
 }
 
-
 .flexing{display: flex;}
 
 .column{flex-direction: column;}
 
-.al-items{align-items: center;}
-
 .wrapping{flex-wrap: wrap;}
 
-
-
-
+.spc-between{justify-content: space-between;}
 
 .btn{
   
@@ -102,17 +52,18 @@ button:last-child{
 
 .btn.small{padding: 6.3px 11.5px;}
 
-
 .btn.medium{
-  padding: 8.7px 26.4px;
   display: inline-block;
- 
+  height: 42px;
+  width: 240px;
+  text-align: center;
+  line-height: 42px;
 }
 
-
-.btn.medium.top { margin-top :25px;
-  margin-bottom: 45px;}
-
+.btn.medium.top {
+  margin-top :25px;
+  margin-bottom: 37px;
+}
 
 .btn.big{
 
@@ -121,80 +72,39 @@ button:last-child{
 
 }
 
+.alt-btn{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
 
+.alt-btn.first{
+  width: 160px;
+  border: solid 2px black;
+}
+
+.alt-btn.second{width: 296px;}
 
 .circle{
-
-
   border: solid 3px #d9d9db ;
   border-radius: 50%;
   height: 20px ;
   width: 20px;
-  
-
 }
-
 
 
 
 /* id */
 
 
-#btn-white{
-  width: 160px;
-  height: 45px;
-  border: solid 2px black;
-  text-decoration: none;
-  color: black;
-  display: inline-block;
-  line-height: 45px;
-  text-align: center;
-  background-color: white;
-  
-
-
-}
-
-#up{width: 300px;}
-
-
-#bottom-down{
-  padding: 30px;
-  
-
-
-}
-
-.spc-between{justify-content: space-between;}
-
-
-
-#resize{width: 800px;} 
-
-
-#second-last{margin-right: -15px;}
-
-
-#bg-alternative{background-color:#b4d0e7 ;}
-
-
-#arrow-down{
-
-  font-size: 3rem;
-  margin-top: 35px;
-  
-  
-}
-
 
 #blue-circle{border: #0061ff solid 5px;}
 
 
-
-#business-gap{
-
-  gap: 50px;
-}
 
 /*colors id*/
 
@@ -209,11 +119,13 @@ button:last-child{
 #yellow{background-color: #ffd830;}
 #light-grey{background-color: #f5f5f5;}
 
+
+
 /* header */
 
 
-header{
 
+header{
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
@@ -223,134 +135,110 @@ header{
   height: 80px;
   width:100%;
   background-color: white;
-  
 }
 
-header a {
-
+header a{
   text-decoration: none;
   color: black;
- 
 }
-
 
 header > ul > li {
-  
   margin-right: 40px ;
   text-decoration: none;
- 
 }
 
+header ul.second :nth-last-child(2){margin-right: 25px;}
 
-header li:last-child{
-  margin: 0;
-}
+header li:last-child{margin: 0;}
 
-/* sections */
+
+
+/* jumbotron */
+
 
 
 section.jumbo {
-  padding-top: 180px;
+  padding-top: 187px;
   padding-bottom: 5px;
-
 }
 
-
-span > p{margin-bottom: 35px;}
-
-
-
-
-span.img-jumbobox{
-  height: 400px;
-  width: 600px;
-  
+.jumbo .btn.big{
+  margin-top: 34px;
+  margin-bottom: 36px;
 }
 
-section span > div {margin-bottom: 35px;}
+.jumbo  span.img-jumbobox{height: 400px;}
+
+.jumbo i {
+  font-size: 3rem;
+  margin-top: 72px;
+}
+
+.jumbo img{width: 820px;}
 
 
-section.business-plan{
 
+/*business-plan section*/
+
+
+
+.business-plan{
   padding: 150px 0 150px 0;
+  font-size: small;
+  font-weight: 500;
 }
 
+.business-plan h2{margin-bottom: 100px;}
 
+.business-plan .second-container >  div > span {margin-right: 50px;}
 
-
-
-
-div.try{
-
-  height: 100%;
+.business-plan div.try{
+ border: solid 2px #d0d0d3 ;
+ margin-top: 50px ;
  
-  border: solid 2px #d0d0d3 ;
-
-  margin-top: 50px ;
-
-
-
 }
 
+.business-plan div.try.up{width: 300px;}
 
-
-
-
-
-.top-try{
-  
-  
-
-  
+.business-plan .top-try{
   width: 100%;
   padding-top: 8.35px;
   padding-bottom: 8.35px;
   text-align: center;
   border-bottom: solid 2px #d0d0d3;
- 
-  
 }
 
-.top-try.st{
-  
-  
+.business-plan .bottom-try{padding: 38px 20px 50px 20px;} 
 
-  margin-bottom: 40px;
-  
- 
-  
+.business-plan h3{margin-bottom: 25px;}
+
+.business-plan .p1{margin-bottom: 18px;}
+
+.business-plan .p2{margin-bottom: 50px;}
+
+.business-plan .bottom-try > ul > li{margin-bottom: 27px;}
+
+.business-plan strong{
+  display: block;
+  margin-bottom: 15px;
 }
 
-.bottom-try{
-  padding: 0 20px 50px 20px;
-  
-  
+.business-plan .top-try i{margin-right: 3px;}
 
-
-
-} 
-
-
-
-p.p1{margin-bottom: 30px;}
-
-p.p2{margin-bottom: 60px;}
-
-
-
-.bottom-try > ul > li{
-
-  margin-bottom: 30px;
+.business-plan li > i{
+  margin-right: 10px;
+  font-size: medium;
 }
 
+.business-plan .check-container{
+  margin-right: 10px;
+  color: #0061ff;
+  height: 20px;
+  font-size: medium;
+}
 
-.bottom-try ul > li {margin-bottom: 30px;}
-
-li > i{margin-right: 10px;}
-
-
-ul hr {
-  margin-top: 40px;
+.business-plan hr {
+  margin-top: 45px;
   margin-bottom: 55px;
   width: 50px;
   color: #d0d0d3;
@@ -358,126 +246,113 @@ ul hr {
 
 
 
-
 /* dropbox-partner section */
 
 
-.dropbox-partner{margin-bottom: 150px;}
 
-.partner-box{
-  
+.dropbox-partner{padding-bottom: 150px;}
+
+.dropbox-partner .partner-box{
   padding: 60px 50px 0 50px;
   width: 40%;
-  
-
 }
 
 .dropbox-partner img{width: 100%;}
 
-.partner-img-box{
-  
-  width: 60%;
-  
-
+.dropbox-partner p{
+  margin-top: 23px;
+  margin-bottom: 34px;
 }
+
+.dropbox-partner .partner-img-box{width: 60%;}
+
+
 
 /*dropbox-business section*/
 
 
-.dropbox-business{
-  padding-bottom: 220px;
 
+.dropbox-business{padding-bottom: 220px;}
 
-}
+.dropbox-business .dropbox-card{width: calc(900px / 3 );}
 
-.dropbox-card{
+.dropbox-business .dropbox-card img{width:100% ;}
 
-  width: calc(900px / 3 );
-}
+.dropbox-business div.wrapping{gap: 50px;}
 
+.dropbox-business h3{margin-bottom: 44px;}
 
-.dropbox-card img{
-
-  width:100% ;
-}
 
 /*dropbox-team*/
 
 
-.dropbox-team{
-  padding-bottom: 150px;
-}
+
+.dropbox-team{padding-bottom: 150px;}
+
+.dropbox-team-a{margin-top: 75px;}
 
 
-
-.dropbox-team-a{
-  margin-top: 75px;
-  
-}
 
 /*designit section*/
 
-.square{
 
+
+.designit .square{
   width: calc(100% / 3 );
   height: calc(100% / 3 ) ;
   aspect-ratio: 1/1;
-
 }
 
-
-.square.center{
+.designit .square.center{
   padding: 50px;
   overflow-y: auto scroll;
   font-size: large;
   line-height: 25px;
   overflow-x: hidden;
-
 }
 
-
-.square.center hr{
+.designit .square.center hr{
   width: 103px;
   color: #d0d0d3;
   margin-top: 50px;
   margin-bottom: 50px;
-  
-  
 }
 
+.designit .square.center p{margin-bottom: 60px;}
 
-.square.center p{margin-bottom: 60px;}
-
-
-.small-square{
+.designit .small-square{
   width: 50%;
   height: 50%;
   justify-content: center;
   align-items: center;
-
 }
 
+.designit .square img{width: 100%;}
 
-.square img{width: 100%;}
+.designit .small-squarebox  img{filter: invert(100%);}
 
-.small-squarebox  img{filter: invert(100%);}
+.designit .small-squarebox{width: 140px;}
 
-.small-squarebox{width: 140px;}
+.designit .big-squarebox{width: 260px;}
 
-.big-squarebox{width: 260px;}
+
+
 
 /*turquoise-section*/
 
 
+
 .turquoise-section{
-
   padding-top: 140px;
-  padding-bottom: 70px;
-
-
+  padding-bottom: 140px;
 }
 
+.turquoise-section h2 {color: #61082b;}
+
+
+
 /*domande-frequenti*/
+
 
 
 .domande-frequenti{
@@ -485,14 +360,20 @@ ul hr {
   padding-bottom: 150px;
 }
 
-.question-box{
+.domande-frequenti h2{margin-bottom: 60px;}
+
+.domande-frequenti .question-box{
   border-top: solid #999999 1px;
   padding-top: 46px;
   padding-bottom: 46px;
   padding-right: 45px;
 }
 
+
+
 /*footer*/
+
+
 
 footer{
   background-color: black;
