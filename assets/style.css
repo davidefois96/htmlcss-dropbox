@@ -4,7 +4,6 @@
   padding: 0;
   list-style: none;
   font-family: 'Open Sans', sans-serif;
-  text-decoration: ;
 }
 
 .debug{
@@ -223,9 +222,7 @@ section.jumbo {
   margin-bottom: 15px;
 }
 
-
 .business-plan strong.second{margin-bottom: 39px;}
-
 
 .business-plan .top-try i{margin-right: 3px;}
 
@@ -331,7 +328,6 @@ section.jumbo {
   align-items: center;
 }
 
-
 .designit .small-square.border{border: solid #d0e9cd 15px}
 
 .designit .square img{width: 100%;}
@@ -376,15 +372,14 @@ section.jumbo {
   padding-right: 45px;
 }
 
-
-
-
 .domande-frequenti .hovered{
   display: none;
   margin-top: 30px;
 }
 
 .domande-frequenti .question-box:hover .hovered{display: block;}
+
+
 
 /*footer*/
 
