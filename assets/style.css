@@ -223,6 +223,10 @@ section.jumbo {
   margin-bottom: 15px;
 }
 
+
+.business-plan strong.second{margin-bottom: 39px;}
+
+
 .business-plan .top-try i{margin-right: 3px;}
 
 .business-plan li > i{
@@ -327,6 +331,9 @@ section.jumbo {
   align-items: center;
 }
 
+
+.designit .small-square.border{border: solid #d0e9cd 15px}
+
 .designit .square img{width: 100%;}
 
 .designit .small-squarebox  img{filter: invert(100%);}
@@ -370,6 +377,14 @@ section.jumbo {
 }
 
 
+
+
+.domande-frequenti .hovered{
+  display: none;
+  margin-top: 30px;
+}
+
+.domande-frequenti .question-box:hover .hovered{display: block;}
 
 /*footer*/
 
